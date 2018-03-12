@@ -11,6 +11,7 @@ node {
     def JWT_KEY_CRED_ID = '9c83332b-56c6-49cc-ba86-56902421e9cb'
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
     println 'KEY IS' 
+	println HUB_ORG
     println JWT_KEY_CRED_ID
     def toolbelt = tool 'toolbelt'
 	println toolbelt
