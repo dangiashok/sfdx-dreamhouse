@@ -13,12 +13,12 @@ node {
     println 'KEY IS' 
     println JWT_KEY_CRED_ID
     def toolbelt = tool 'toolbelt'
-
+	println toolbelt
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
-
+	println HUB_ORG
     withCredentials([file(credentialsId: '9c83332b-56c6-49cc-ba86-56902421e9cb', variable: 'jwt_key_file')]) {
         stage('Create Scratch Org') {
             if (isUnix()) {
