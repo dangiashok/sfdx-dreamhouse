@@ -7,7 +7,7 @@ node {
     def SFDC_USERNAME
 
     def HUB_ORG='ashok.sdangisfdcdx@gmail.com'
-    def SFDC_HOST = 'login.salesforce.com'
+    def SFDC_HOST = 'http://login.salesforce.com'
     def JWT_KEY_CRED_ID = '9c83332b-56c6-49cc-ba86-56902421e9cb'
     def CONNECTED_APP_CONSUMER_KEY='3MVG9d8..z.hDcPIxKIvOh32XDGVdKXJHeRKDhvBeySIgdG5oNRWr6D2aeWqKkFDpr3nO0ab5k7OsAJyEYwY4'
     println 'KEY IS' 
